@@ -255,6 +255,79 @@
     border: 15px solid #F00;
 }
 
+/* holidays sales section */
+.holiday-text {
+    text-align: center;
+}
+
+.holiday-text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-text h1>span {
+    color: #F00;
+}
+
+.holiday-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 20px 30px;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+.holiday-img{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-img .gift1{
+    width: 50%;
+    position: relative;
+}
+.holiday-img .gift1 img{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.gift2{
+    position: relative;
+}
+/*  */
+.woman{
+    position: relative;
+}
+.money{
+    position: absolute;
+    top: 50px;
+    right: 260px;
+    z-index: 1;
+}
+
+.redline {
+    width: 1584px;
+}
+
+.redline img {
+    width: 100%;
+}
+
 /* gift section start */
 
 .gift-section .gift-text h4 {
@@ -297,13 +370,15 @@
 
 /* newsletter section */
 .newsletter {
-    
+
     height: 700px;
     padding: 80px 212;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .newsletter .newsletter-info {
@@ -374,7 +449,7 @@
 
 /* footer part */
 #footer-part {
-    background-color:#070211;
+    background-color: #070211;
     height: 600px;
 }
 
@@ -403,11 +478,12 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    
+
     /* 166.667% */
 
 }
-.footer-text-two .text-1{
+
+.footer-text-two .text-1 {
     margin: 50px 100px 8px 0px;
 }
 
@@ -442,6 +518,7 @@
     display: flex;
     justify-content: space-between;
 }
-hr{
+
+hr {
     background: rgba(255, 255, 255, 0.15);
 }
