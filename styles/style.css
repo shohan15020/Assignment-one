@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    border: 2px solid red;
+}
+.container{
+    max-width: 1584px;
+    margin: 0px auto 120px;
+}
+.main{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("../resources/Banner\ Image.png");;
+    /* background-image: url("../resources/Banner\ Image.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border: 2px solid green;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    
+}
+
+.main h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400px;
+    text-align: center;
+}
+.main h1{
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
